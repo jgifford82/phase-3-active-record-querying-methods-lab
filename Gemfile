@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # An object-relational mapper
 # https://guides.rubyonrails.org/active_record_basics.html
-gem "activerecord", "~> 6.1"
+gem "activerecord", "~> 6.1", :require => "active_record"
 
 # Configures common Rake tasks for working with Active Record
 # https://github.com/sinatra-activerecord/sinatra-activerecord
